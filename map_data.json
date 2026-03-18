@@ -1,0 +1,35 @@
+{
+  "stateData": {
+    "us-22": {
+      "fill": "#f97316"
+    },
+    "us-28": {
+      "fill": "#f97316"
+    },
+    "us-01": {
+      "fill": "#f97316"
+    },
+    "us-13": {
+      "fill": "#f97316"
+    },
+    "us-12": {
+      "fill": "#f97316"
+    },
+    "us-18": {
+      "fill": "#a855f7"
+    },
+    "us-48": {
+      "fill": "#f43f5e"
+    }
+  },
+  "legendDescriptions": {
+    "us-22": "MGL Engineering",
+    "us-28": "MGL Engineering",
+    "us-01": "MGL Engineering",
+    "us-13": "MGL Engineering",
+    "us-12": "MGL Engineering",
+    "us-18": "Franklin Rock & Recycle",
+    "us-48": "Crushin Tigers // POTANSIYEL"
+  },
+  "exportDate": "2026-03-18T13:05:02.204Z"
+}
