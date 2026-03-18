@@ -173,7 +173,7 @@
     <!-- LEGEND PANEL -->
     <aside class="legend-panel" id="legend-panel">
         <div class="legend-header">
-            <h3>🎨 Renk Açıklamaları</h3>
+            <h3>🎨 Özet</h3>
             <div class="legend-btn-group" id="legend-mode-toggle">
                 <button class="legend-btn" id="btn-legend-individual" title="Detaylı (Tek tek)">+</button>
                 <button class="legend-btn active" id="btn-legend-grouped" title="Grupla (Kompakt)">−</button>
@@ -592,7 +592,7 @@ document.getElementById('btn-export').addEventListener('click',async()=>{
         const imgData=canvas.toDataURL('image/png');
         pdf.addImage(imgData,'PNG',5,5,mapW,mapH);
         const lx=mapW+10;
-        pdf.setFontSize(14);pdf.text('Renk Açıklamaları',lx,15);
+        pdf.setFontSize(14);pdf.text('Özet',lx,15);
         pdf.setDrawColor(200);pdf.line(lx,18,pw-5,18);
         let ly=25;
         const pdfUsItems=[], pdfCaItems=[];
